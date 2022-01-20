@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Wed Jan 19 16:55:10 2022
+# Make data base, printed on Thu Jan 20 16:59:32 2022
 
 # Variables
 
@@ -54,7 +54,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-532f29d7-f5af-41be-a2f5-fa545e9af8ca-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5e2eb854-8999-4502-b79b-35900aa6697b-sock
 # environment
 VSCODE_CWD = C:\Program Files\Microsoft VS Code
 # environment
@@ -78,7 +78,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9148_FSEMNKDMZSUUPVRC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14372_HJFWVSYWBANSXCXA
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -116,8 +116,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-J 
-AVA_HOME = C:\Program Files\Eclipse Adoptium\jre-8.0.312.7-hotspot\
+JAVA_HOME = C:\Program Files\Eclipse Adoptium\jre-8.0.312.7-hotspot\
 # default
 MAKE_VERSION := 3.81
 # makefile
@@ -135,7 +134,8 @@ MAKE_COMMAND := make.exe
 # environment
 PROCESSOR_ARCHITEW6432 = AMD64
 # default
-.VARIABLES := 
+.VARIABLE 
+S := 
 # automatic
 *F = $(notdir $*)
 # environment
@@ -185,12 +185,11 @@ PROCESSOR_REVISION = a701
 # environment
 MAKELEVEL := 0
 # environment
-LA 
-NG = C
+LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 9148
+VSCODE_PID = 14372
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-74G5JHO
 # variable set hash-table stats:
@@ -203,20 +202,19 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-74G5JHO
 # Directories
 
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1636854196): 30 files, no impossibilities.
-# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtim 
-e 1642195403): 170 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mt 
+ime 1642195403): 170 files, no impossibilities.
 # . (key c:/Users/Phoenix/source/repos/CSCI208-Examples, mtime 1642628507): 17 files, no impossibilities.
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1637009523): 127 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1641840383): 12 files, no impossibilities.
-# C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1641849991): 4 files, no i 
-mpossibilities.
+# C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1641849991): 4 files, no 
+ impossibilities.
 # C:\WINDOWS (key C:/WINDOWS, mtime 1641822194): 120 files, no impossibilities.
 # C:\Users\Phoenix\AppData\Local\Microsoft\WindowsApps (key C:/Users/Phoenix/AppData/Local/Microsoft/WindowsApps, mtime 1641820759): 32 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1641850258): 8 files, no impossibilities.
 # C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1642195692): 3040 files, no impossibilities.
-# C:\Program Files\Eclipse Adoptium\jre-8.0.312. 
-7-hotspot\bin (key C:/Program Files/Eclipse Adoptium/jre-8.0.312.7-hotspot/bin, mtime 1637001661): 57 files, no impossibilities.
+# C:\Program Files\Eclipse Adoptium\jre-8.0.312.7-hotspot\bin (key C:/Program Files/Eclipse Adoptium/jre-8.0.312.7-hotspot/bin, mtime 1637001661): 57 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1642624031): 5 files, no impossibilities.
 
 # 3622 files, no impossibilities in 13 directories.
@@ -233,7 +231,8 @@ all:
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
-# variable set hash-table stats:
+# variable s 
+et hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
@@ -254,8 +253,8 @@ makefile:
 
 # Not a target:
 .SUFFIXES:
-#  Implicit 
- rule search has not been done.
+#  Implic 
+it rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -275,16 +274,15 @@ GNUmakefile:
 
 # No `vpath' search paths.
 
-# No general  
-make.exe: *** No rule to make target `all'.  Stop.
- 
-(`VPATH' variable) search path.
+# No general (`VPATH' variable) search path.
 
 # # of strings in strcache: 0
 # # of strcache buffers: 0
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed Jan 19 16:55:10 2022
+# Finished Make data base on Thu Jan 20 16:59:32 2022
 
+ 
+make.exe: *** No rule to make target `all'.  Stop.
  
